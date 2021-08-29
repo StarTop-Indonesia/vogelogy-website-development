@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+nav.navbar {
+  background-color: #f9f5ec !important;
+}
+.navbar-brand {
+  color: #88aa00 !important;
+}
+.navbar-brand img {
+  width: 63px;
+}
+.nav-item .nav-link {
+  color: black !important;
+}
+.navbar-brand,
+.nav-item .nav-link {
+  font-size: 24px !important;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 29px;
+  font-family: "montserrat";
+}
