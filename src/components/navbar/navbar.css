@@ -2,17 +2,19 @@
 nav.navbar {
   background-color: #f9f5ec !important;
 }
-.navbar-brand {
+.navbar .container-fluid .navbar-brand {
   color: #88aa00 !important;
+  font-size: 24px !important;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 29px;
+  font-family: "montserrat";
 }
-.navbar-brand img {
+.navbar .container-fluid .navbar-brand img {
   width: 63px;
 }
-.nav-item .nav-link {
+.navbar .container-fluid #navbarSupportedContent .navbar-nav .nav-item .nav-link {
   color: black !important;
-}
-.navbar-brand,
-.nav-item .nav-link {
   font-size: 24px !important;
   font-weight: 600;
   font-style: normal;
