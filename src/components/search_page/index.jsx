@@ -7,8 +7,8 @@ const Search_Page = () => {
   return (
     <div className="container-fluid search_page">
       <SearchSection />
-      {/* <AboutSection />
-      <CommunitySection /> */}
+      <AboutSection />
+      {/* <CommunitySection /> */}
     </div>
   );
 };

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.search_page #about {
+  padding: 76px 0 217px 0;
+}
+.search_page #about .logo {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 88px;
+  color: #88aa00;
+}
+.search_page #about .text-under-logo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  padding-top: 48px;
+  margin: 0px;
+}
+.search_page #about .visitor {
+  padding-top: 32px;
+}
+.search_page #about .visitor p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin: 0px;
+}
+.search_page #about .visitor h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 147.4%;
+  text-align: center;
+  color: #000000;
+  padding: 16px 0 32px 0;
+  margin: 0px;
+}
