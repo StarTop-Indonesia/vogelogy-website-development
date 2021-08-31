@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light ps-5 pe-5">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <img src="/asset/other_img/Logo_vogelogy.png" alt="Vogelogy Logo" className="me-4" />
@@ -13,12 +13,12 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item me-5">
+            <li className="nav-item">
               <a className="nav-link" href="#search">
                 Search
               </a>
             </li>
-            <li className="nav-item me-5">
+            <li className="nav-item nav-about">
               <a className="nav-link" href="#about">
                 About
               </a>
