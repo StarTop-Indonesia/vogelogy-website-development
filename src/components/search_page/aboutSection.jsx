@@ -1,3 +1,4 @@
+import React from "react";
 const aboutSection = () => {
   return (
     <div id="about">

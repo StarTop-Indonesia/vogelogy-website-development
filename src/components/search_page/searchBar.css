@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.search_page #search #search-bar .search-wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  height: 96px;
+  width: 796px;
+}
+.search_page #search #search-bar .search-wrapper .search-column {
+  align-items: center;
+  display: flex;
+}
+.search_page #search #search-bar .search-wrapper .search-column form input {
+  width: 100%;
+  font-size: 24px;
+  border: none;
+  font-family: Montserrat;
+}
+.search_page #search #search-bar .search-wrapper .search-column form input:focus {
+  outline: none;
+}
+.search_page #search #search-bar .search-wrapper .icon-wrapper {
+  align-items: center;
+  display: flex;
+}

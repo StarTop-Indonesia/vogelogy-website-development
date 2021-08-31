@@ -1,26 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-#search_page #search h1 {
+.search_page #search #text {
+  padding: 167px 96px 216px 96px;
+}
+.search_page #search #text h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
   line-height: 78px;
   color: #000000;
+  max-width: 826px;
+  margin-bottom: 24px;
 }
-#search_page #search p {
+.search_page #search #text p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
+  max-width: 693px;
+  margin-bottom: 48px;
 }
-#search_page #search a {
+.search_page #search #text a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-
   color: #000000;
+  text-decoration: none;
+  max-width: 203px;
+}
+.search_page #search #search-bar {
+  padding-bottom: 196px;
+  /* max-width: 796px; */
 }

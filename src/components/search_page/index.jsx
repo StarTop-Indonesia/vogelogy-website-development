@@ -1,3 +1,4 @@
+import React from "react";
 import SearchSection from "./searchSection";
 import AboutSection from "./aboutSection";
 import CommunitySection from "./communitySection";
@@ -6,8 +7,8 @@ const Search_Page = () => {
   return (
     <div className="container-fluid search_page">
       <SearchSection />
-      <AboutSection />
-      <CommunitySection />
+      {/* <AboutSection />
+      <CommunitySection /> */}
     </div>
   );
 };
