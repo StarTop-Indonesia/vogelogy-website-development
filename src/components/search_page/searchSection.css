@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.search_page #search {
+  padding: 167px 0 196px 0;
+}
 .search_page #search #text {
-  padding: 167px 96px 216px 96px;
+  padding: 0 96px 216px 96px;
 }
 .search_page #search #text h1 {
   font-family: Montserrat;
@@ -31,8 +34,4 @@
   color: #000000;
   text-decoration: none;
   max-width: 203px;
-}
-.search_page #search #search-bar {
-  padding-bottom: 196px;
-  /* max-width: 796px; */
 }
