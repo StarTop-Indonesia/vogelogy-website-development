@@ -8,7 +8,7 @@ const Search_Page = () => {
     <div className="container-fluid search_page">
       <SearchSection />
       <AboutSection />
-      {/* <CommunitySection /> */}
+      <CommunitySection />
     </div>
   );
 };
