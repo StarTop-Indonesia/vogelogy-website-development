@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.search_page #community {
+  padding: 60px 0;
+}
+.search_page #community .community-wrapper {
+  padding: 0 173px;
+}
