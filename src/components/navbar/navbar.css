@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-nav.navbar {
+/* nav.navbar {
   background-color: #f9f5ec !important;
   padding: 0 64px;
   min-height: 86px;
@@ -24,5 +24,27 @@ nav.navbar {
   font-weight: 600;
   font-style: normal;
   line-height: 29px;
+  font-family: "montserrat";
+} */
+nav.navbar {
+  background-color: #f9f5ec !important;
+}
+.navbar .container-fluid .navbar-brand {
+  color: #88aa00 !important;
+  font-size: 19px !important;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 23px;
+  font-family: "montserrat";
+}
+.navbar .container-fluid .navbar-brand img {
+  width: 50px;
+}
+.navbar .container-fluid #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  color: black !important;
+  font-size: 19px !important;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 23px;
   font-family: "montserrat";
 }
