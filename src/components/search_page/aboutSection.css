@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-.search_page #about {
+/* .search_page #about {
   padding: 76px 0 217px 0;
 }
 .search_page #about .logo {
@@ -44,5 +44,55 @@
   text-align: center;
   color: #000000;
   padding: 16px 0 32px 0;
+  margin: 0px;
+} */
+.search_page #about {
+  padding: 20px 0 56px 0; /*x 0.26*/
+}
+.search_page #about .logo {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px; /*x 0.29*/
+  line-height: 26px; /*x 0.29*/
+  color: #88aa00;
+}
+.search_page #about .logo img {
+  width: 48px; /*x 0.29*/
+}
+.search_page #about .text-under-logo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px; /*x 0.29*/
+  line-height: 10px; /*x 0.29*/
+  text-align: center;
+  color: #000000;
+  padding-top: 12px; /*x 0.26*/
+  margin: 0px;
+}
+.search_page #about .visitor {
+  padding-top: 8px; /*x 0.26*/
+}
+.search_page #about .visitor p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px; /*x 0.29*/
+  line-height: 10px; /*x 0.29*/
+  text-align: center;
+  color: #000000;
+  margin: 0px;
+}
+.search_page #about .visitor h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px; /*x 0.29*/
+  line-height: 147.4%;
+  text-align: center;
+  color: #000000;
+  padding: 4px 0 8px 0; /*x 0.26*/
   margin: 0px;
 }
