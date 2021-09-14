@@ -1,7 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-.search_page #community {
+/* .search_page #community {
   padding: 60px 0;
 }
 .search_page #community .community-wrapper {
   padding: 0 173px;
+} */
+
+.search_page #community {
+  padding: 16px 0; /* x 0.26 */
+}
+.search_page #community .community-wrapper {
+  padding: 0 45px; /* x 0.26 */
+}
+.search_page #community .community-wrapper .developer-wrapper .startop-logo img {
+  width: 77px;
+}
+.search_page #community .community-wrapper .developer-wrapper .developer a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px; /* x 0.29++ */
+  line-height: 7px; /* x 0.29++ */
+  color: #000000;
+}
+.search_page #community .community-wrapper .socmed-wrapper .donation p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px; /* x 0.29++ */
+  line-height: 7px; /* x 0.29++ */
+  color: #000000;
+}
+.search_page #community .community-wrapper .socmed-wrapper .donation a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px; /* x 0.29++ */
+  line-height: 7px; /* x 0.29++ */
+  color: #000000;
+}
+.search_page #community .community-wrapper .socmed-wrapper .socmed img {
+  width: 85px; /* x 0.29 */
 }
